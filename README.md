@@ -17,3 +17,8 @@ The spike is caused by publisher that keeps publishing message. As we can see, i
 
 ![Simulation slow subscriber]( Simulation-slow-subscriber.png "Simulation-slow-subscriber")
 the number of queued messages is the number of messages that are waiting to be acked by the subscriber. because the subscriber only can acked to one message at a time, this cause the queue to be spiking.
+
+
+
+![Reflection-and-Running-at-least-three-subscribers]( Reflection-and-Running-at-least-three-subscribers.png "Reflection-and-Running-at-least-three-subscribers")
+the number of queued messages reduced much faster because there are more subscriber that can acknowledge the messages. Rabbit mq distributes the queued messages to different subscribers so it reduced quicker.
