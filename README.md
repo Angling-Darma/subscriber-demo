@@ -10,3 +10,5 @@ AMQP (Advanced Message Queuing Protocol) is an open standard protocol for messag
 ![Running RabbitMQ as message broker]( Running-RabbitMQ-as-message-broker.png "Running-RabbitMQ-as-message-broker")
 
 ![Sending-and-processing-event]( Sending-and-processing-event.png "Sending-and-processing-event")
+
+![Monitoring-chart-based-on-publisher]( Monitoring-chart-based-on-publisher.png "Monitoring-chart-based-on-publisher")
