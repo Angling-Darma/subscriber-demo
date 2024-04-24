@@ -7,3 +7,4 @@ AMQP (Advanced Message Queuing Protocol) is an open standard protocol for messag
 - The second `guest` is the password for authentication.
 - `localhost:5672` specifies the server address and port where the message broker is running. Here, `localhost` means the broker is running on the local machine, and `5672` is the default port for AMQP brokers.
 """
+![Running RabbitMQ as message broker]( Running-RabbitMQ-as-message-broker.png "Running-RabbitMQ-as-message-broker")
